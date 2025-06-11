@@ -1,117 +1,14 @@
-# README
-Descrição do projeto e dos arquivos:
-- `projeto.html/.htaccess`: Arquivo de recurso
-- `projeto.html/admin.php`: Arquivo PHP (lógica do servidor)
-- `projeto.html/cadastro.html`: Arquivo HTML (página web)
-- `projeto.html/carrinho.php`: Arquivo PHP (lógica do servidor)
-- `projeto.html/index.html`: Arquivo HTML (página web)
-- `projeto.html/login.html`: Arquivo HTML (página web)
-- `projeto.html/orcamentos.php`: Arquivo PHP (lógica do servidor)
-- `projeto.html/pecas.php`: Arquivo PHP (lógica do servidor)
-- `projeto.html/salvar_orcamento.php`: Arquivo PHP (lógica do servidor)
-- `projeto.html/script.js`: Arquivo JavaScript (scripts client-side)
-- `projeto.html/scriptErro.js`: Arquivo JavaScript (scripts client-side)
-- `projeto.html/servicos.html`: Arquivo HTML (página web)
-- `projeto.html/style.css`: Arquivo CSS (estilos)
-- `projeto.html/.git/COMMIT_EDITMSG`: Arquivo de recurso
-- `projeto.html/.git/config`: Arquivo de recurso
-- `projeto.html/.git/description`: Arquivo de recurso
-- `projeto.html/.git/HEAD`: Arquivo de recurso
-- `projeto.html/.git/index`: Arquivo de recurso
-- `projeto.html/.git/hooks/applypatch-msg.sample`: Arquivo de recurso
-- `projeto.html/.git/hooks/commit-msg.sample`: Arquivo de recurso
-- `projeto.html/.git/hooks/fsmonitor-watchman.sample`: Arquivo de recurso
-- `projeto.html/.git/hooks/post-update.sample`: Arquivo de recurso
-- `projeto.html/.git/hooks/pre-applypatch.sample`: Arquivo de recurso
-- `projeto.html/.git/hooks/pre-commit.sample`: Arquivo de recurso
-- `projeto.html/.git/hooks/pre-merge-commit.sample`: Arquivo de recurso
-- `projeto.html/.git/hooks/pre-push.sample`: Arquivo de recurso
-- `projeto.html/.git/hooks/pre-rebase.sample`: Arquivo de recurso
-- `projeto.html/.git/hooks/pre-receive.sample`: Arquivo de recurso
-- `projeto.html/.git/hooks/prepare-commit-msg.sample`: Arquivo de recurso
-- `projeto.html/.git/hooks/push-to-checkout.sample`: Arquivo de recurso
-- `projeto.html/.git/hooks/sendemail-validate.sample`: Arquivo de recurso
-- `projeto.html/.git/hooks/update.sample`: Arquivo de recurso
-- `projeto.html/.git/info/exclude`: Arquivo de recurso
-- `projeto.html/.git/logs/HEAD`: Arquivo de recurso
-- `projeto.html/.git/logs/refs/heads/main`: Arquivo de recurso
-- `projeto.html/.git/logs/refs/remotes/origin/main`: Arquivo de recurso
-- `projeto.html/.git/objects/03/e145b311c25e0d9352f208d4cf5f1275a422ae`: Arquivo de recurso
-- `projeto.html/.git/objects/0d/d30d124e4d615224e2446f7030079d34436c6e`: Arquivo de recurso
-- `projeto.html/.git/objects/11/d83b1be7a7c23939eef8b4952ef003517e2995`: Arquivo de recurso
-- `projeto.html/.git/objects/14/e852baab799531f2634be1efade763515f2c68`: Arquivo de recurso
-- `projeto.html/.git/objects/18/173a23dc60c9ca09abc1c40b594652c3842a0f`: Arquivo de recurso
-- `projeto.html/.git/objects/1e/6a8d5cd79473018d23edb7a3ee7d2774b6ad25`: Arquivo de recurso
-- `projeto.html/.git/objects/20/ce29a9f45c5d49d653f9ed1d43f65c4e997b07`: Arquivo de recurso
-- `projeto.html/.git/objects/21/75a44e8c040f63dd113921628f953929f6f556`: Arquivo de recurso
-- `projeto.html/.git/objects/31/75687a4b7fe6084fca777726abf4868db3634c`: Arquivo de recurso
-- `projeto.html/.git/objects/33/0742fe2438ca3f01fa1acab97fc740f51b6725`: Arquivo de recurso
-- `projeto.html/.git/objects/35/f4e85005b3704afa96fbc5a42b86350427d765`: Arquivo de recurso
-- `projeto.html/.git/objects/36/7f44bd869b5b9987e6d885d43c0ed4c2c5a511`: Arquivo de recurso
-- `projeto.html/.git/objects/38/3efd9de4a632cb02c174d330cfea84f9d720e9`: Arquivo de recurso
-- `projeto.html/.git/objects/43/845fcbccced24548e2cfd403011d5833a6f71c`: Arquivo de recurso
-- `projeto.html/.git/objects/47/baac3951a7a60f8d88e0ce397e99c89efdb93e`: Arquivo de recurso
-- `projeto.html/.git/objects/4a/3b5ea9465ee5e0b128bdbff4c972d326f13e67`: Arquivo de recurso
-- `projeto.html/.git/objects/4f/ff48582c606e46af9abcab14f980d19ca35123`: Arquivo de recurso
-- `projeto.html/.git/objects/53/88440ee3f48fece9a5fa7bb22b915fc0021cdd`: Arquivo de recurso
-- `projeto.html/.git/objects/67/7d1481faa53e37736a8a93e3bf5683eabadb0d`: Arquivo de recurso
-- `projeto.html/.git/objects/6b/7a015b5c2670d4dfa9ba57bd15dd6bc30d43a9`: Arquivo de recurso
-- `projeto.html/.git/objects/7e/6f1032b57584d815d0af71da9ce6ab784a6f2d`: Arquivo de recurso
-- `projeto.html/.git/objects/7e/c5e7f820acd455ef7d2012290c66526e0e19db`: Arquivo de recurso
-- `projeto.html/.git/objects/8a/1d78503954ceef7de18ae2e0ca5364af4b462e`: Arquivo de recurso
-- `projeto.html/.git/objects/9c/c0dbdf6c5ef232484739514c3ed566bad70ce7`: Arquivo de recurso
-- `projeto.html/.git/objects/a0/29ca7e691765895d9bed9f39898ce6b6f01e3d`: Arquivo de recurso
-- `projeto.html/.git/objects/a3/f911b9b34f72b55c5269ef65800f49d117e2d6`: Arquivo de recurso
-- `projeto.html/.git/objects/a5/b7e64e14d2f35e58053c366b0bbbe56f5880d1`: Arquivo de recurso
-- `projeto.html/.git/objects/aa/792864f5b03a887f1b2c1ddefa9be9a2248913`: Arquivo de recurso
-- `projeto.html/.git/objects/ac/5f5388532c507c558e9c8a46c03718e7795b04`: Arquivo de recurso
-- `projeto.html/.git/objects/ae/d105f740705a61acea3dfce47c203505e10815`: Arquivo de recurso
-- `projeto.html/.git/objects/b1/07bba31daed2afb18637cc2e1680a3c9d6d1b8`: Arquivo de recurso
-- `projeto.html/.git/objects/b2/de996ee11fa23e313e403b476584e31a1d45d6`: Arquivo de recurso
-- `projeto.html/.git/objects/bc/2d368214d4002f6c47609044cd7069deec469d`: Arquivo de recurso
-- `projeto.html/.git/objects/bd/f9173a244e8405b8e48ee7c711085cf2c59614`: Arquivo de recurso
-- `projeto.html/.git/objects/c2/491d9dd16200fd5939fbf6bab6ce222accaaf3`: Arquivo de recurso
-- `projeto.html/.git/objects/c8/ef121f4e7da0aeb2462065a9cd419b6a91d662`: Arquivo de recurso
-- `projeto.html/.git/objects/d0/47d08ed20bdaff2d8b6bf2e7d74dc483cac748`: Arquivo de recurso
-- `projeto.html/.git/objects/d2/ddebfd1f1e7105d1a1fb0fec51560224f11987`: Arquivo de recurso
-- `projeto.html/.git/objects/d3/4bfaa83fb496f8d3b775808bd56b977efa3269`: Arquivo de recurso
-- `projeto.html/.git/objects/dc/aa08c0c5bef85ca3740288c92b28564f971994`: Arquivo de recurso
-- `projeto.html/.git/objects/e8/0d2942482d100744d48f379b30998dfe28e2d6`: Arquivo de recurso
-- `projeto.html/.git/objects/ef/49b8a928f006f2fa736b8ba02f9cf14e7f9751`: Arquivo de recurso
-- `projeto.html/.git/objects/f2/042b7887cc4da72f3c7b8217d5a16e6d4acd7b`: Arquivo de recurso
-- `projeto.html/.git/objects/f4/a437d8dc649675c50a8e68434d0b4fb91e4fa0`: Arquivo de recurso
-- `projeto.html/.git/objects/fc/34c4e787754a52a830102b86d124c07c81aff2`: Arquivo de recurso
-- `projeto.html/.git/objects/fc/acb0310a4caac3efa7a8ce0d9263f2112e05a6`: Arquivo de recurso
-- `projeto.html/.git/objects/fc/c56d449a3dbfb434cf0bc5fd013dcfc86c5fcc`: Arquivo de recurso
-- `projeto.html/.git/refs/heads/main`: Arquivo de recurso
-- `projeto.html/.git/refs/remotes/origin/main`: Arquivo de recurso
-- `projeto.html/img/adaptador.png`: Imagem usada no projeto
-- `projeto.html/img/bruno.png`: Imagem usada no projeto
-- `projeto.html/img/cabo.png`: Imagem usada no projeto
-- `projeto.html/img/controle.png`: Imagem usada no projeto
-- `projeto.html/img/cooler.png`: Imagem usada no projeto
-- `projeto.html/img/fabio.png`: Imagem usada no projeto
-- `projeto.html/img/hd-externo.png`: Imagem usada no projeto
-- `projeto.html/img/hdmi.png`: Imagem usada no projeto
-- `projeto.html/img/hdsata.png`: Imagem usada no projeto
-- `projeto.html/img/hub.png`: Imagem usada no projeto
-- `projeto.html/img/monitor.png`: Imagem usada no projeto
-- `projeto.html/img/mouse.png`: Imagem usada no projeto
-- `projeto.html/img/mousepad.png`: Imagem usada no projeto
-- `projeto.html/img/neto.png`: Imagem usada no projeto
-- `projeto.html/img/pendrive.png`: Imagem usada no projeto
-- `projeto.html/img/play.jpg`: Imagem usada no projeto
-- `projeto.html/img/ram.png`: Imagem usada no projeto
-- `projeto.html/img/roteador.png`: Imagem usada no projeto
-- `projeto.html/img/ssd.png`: Imagem usada no projeto
-- `projeto.html/img/suporte.png`: Imagem usada no projeto
-- `projeto.html/img/teclado.png`: Imagem usada no projeto
-- `projeto.html/img/webcam.png`: Imagem usada no projeto
-- `projeto.html/php/adicionar_carrinho.php`: Arquivo PHP (lógica do servidor)
-- `projeto.html/php/cadastro.php`: Arquivo PHP (lógica do servidor)
-- `projeto.html/php/checkout.php`: Arquivo PHP (lógica do servidor)
-- `projeto.html/php/config.php`: Arquivo PHP (lógica do servidor)
-- `projeto.html/php/footer.php`: Arquivo PHP (lógica do servidor)
-- `projeto.html/php/header.php`: Arquivo PHP (lógica do servidor)
-- `projeto.html/php/login.php`: Arquivo PHP (lógica do servidor)
-- `projeto.html/php/logout.php`: Arquivo PHP (lógica do servidor)
+## Resumo do projeto
+Este projeto é um trabalho acadêmico da disciplina Desenvolvimento Web em HTML, PHP, JavaScript e CSS. Consiste em um site de e-commerce e sistema de orçamentos de componentes de informática, permitindo ao usuário navegar por peças (como memória RAM, SSD, roteador, teclado e webcam), realizar cadastro, login, adicionar itens ao carrinho, gerar orçamentos e efetuar checkout. A interface conta com páginas HTML, estilos em CSS, scripts JavaScript para validação e interatividade, e lógica de servidor em PHP, incluindo um painel de administração para gerenciamento.
+
+### Funcionamento com banco de dados SQL
+O site utiliza um banco de dados MySQL para armazenar informações de usuários, produtos, carrinho, orçamentos e pedidos. As principais tabelas são:
+- `usuarios`: armazena dados de cadastro, login e perfil dos usuários;
+- `produtos`: contém informações sobre os componentes disponíveis (nome, descrição, preço, imagem);
+- `carrinho`: armazena os produtos adicionados ao carrinho de cada usuário;
+- `orçamento`: registra os orçamentos gerados, vinculados a usuários e itens;
+- `pedidos`: armazena os pedidos finalizados após checkout, incluindo status e data;
+As operações de CRUD, autenticação, geração de orçamentos e processamento de compras são realizadas via PHP, utilizando extensões PDO ou MySQLi para executar consultas SQL.
+
+
+![image](https://github.com/user-attachments/assets/8495e138-7c0e-423b-abca-83d401164a9d)

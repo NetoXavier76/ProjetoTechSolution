@@ -1,0 +1,6 @@
+<IfModule mod_php7.c>
+  AddType application/x-httpd-php .php .html .htm
+</IfModule>
+<IfModule mod_php.c>
+  AddType application/x-httpd-php .php .html .htm
+</IfModule>
